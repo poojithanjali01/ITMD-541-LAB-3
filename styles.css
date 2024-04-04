@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #E3DCD2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    
+
+}
+
+/* Center-align input elements */
+input[type="text"], input[type="range"] {
+    margin: 10px auto;
+    width: 150px;
+    text-align: center;
+    border:none;
+    border-radius: 2px;
+}
+
+/* Style for  input elements */
+input[type="text"][disabled]{
+    background-color:#E3DCD2;
+    color: #64766A;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #222724;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #8d798a;
+    margin-top: 100px;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 100px;
+    box-shadow: 10px 20px 5px rgb(79, 78, 78);
+}
